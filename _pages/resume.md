@@ -6,4 +6,4 @@ description: Within this page you can view or download my CV. For any inquiries 
 nav: true
 ---
 
-{% pdf "/assets/pdf/resume.pdf" | page.h1 %}
+{% pdf site.cv.pdf | page.h1 %}
