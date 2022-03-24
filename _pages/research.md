@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Research
+title: research
 description: A selection of research I have done.
 permalink: /research/
 nav: true
@@ -12,18 +12,18 @@ nav: true
     {%- assign research = site.research | reverse -%} 
     {% for item in research %}
 
-    {% assign year = post.date | date: "%Y" %}
+    {% assign year = item.date | date: "%Y" %}
 
     <li>
       <h3>
-        {% if post.redirect == blank %}
-          <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% if item.redirect == blank %}
+          <a class="post-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
         {% else %}
-        <a class="post-title" href="{% if post.redirect contains '://' %}{{ post.redirect }}{% else %}{{ post.redirect | relative_url }}{% endif %}">{{ post.title }}</a>
+        <a class="post-title" href="{% if item.redirect contains '://' %}{{ item.redirect }}{% else %}{{ item.redirect | relative_url }}{% endif %}">{{ item.title }}</a>
         {% endif %}
       </h3>
-      <p>{{ post.description }}</p>
-      <p class="post-meta"> {{ post.date | date: '%B %-d, %Y' }}
+      <p>{{ item.description }}</p>
+      <p class="post-meta"> {{ item.date | date: '%B %-d, %Y' }}
       </p>
     </li>
 
