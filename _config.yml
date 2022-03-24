@@ -83,8 +83,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # your blog must have a name for it to show up in the nav bar
-blog_description: 
+blog_name: Research # your blog must have a name for it to show up in the nav bar
+blog_description: My research has largely focused on stochastic control, reinforcement learning, optimization, ML applications in neuroscience, and some differential game theory. You can view my doctoral dissertation <a href='https://smartech.gatech.edu/handle/1853/59263'>here</a>!
 permalink: /blog/:year/:title/
 
 # Pagination
