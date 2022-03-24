@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: though most people call me "Yannis".
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p></p>
+    <p></p>
+    <p></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Data & Applied Scientist at Microsoft. Prior to that I was a postdoctoral research fellow at the computer science department of Stanford University. I received a PhD degree in 2017 from the Georgia Institue of Technology, and also hold two MS degrees, in Mathematics and Aerospace Engineering, also from Georgia Tech. My initial degree was in Mechanical Engineering, obtained at the University of Patras, Greece (graduating valedictorian). My doctoral thesis was in the field of stochastic optimal control, under the guidance of Panagiotis Tsiotras and Evangelos Theodorou. After the completion of my PhD I spent some time developing machine learning and control algorithms for a neuroscience/neurosurgery lab at Emory University, and then joined Stanford University to work on control and deep reinforcement learning for robotics with Karen Liu. My research interests lie at the intersection of stochastic control, reinforcement learning, optimization, and deep learning, particularly in applications within robotics and neuroscience. I also have some background in differential game theory. During my PhD studies I was an [Onassis Foundation](https://www.onassis.org/) scholar.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my free time I enjoy reading books (both non-fiction as well as classic literature; see my reading journal [here](https://www.goodreads.com/user/show/66041354-yannis/)!), Jiu Jitsu and yoga to offset the time spent sitting at a desk, and playing the piano whenever I get the chance.
