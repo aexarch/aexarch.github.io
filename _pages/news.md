@@ -2,11 +2,10 @@
 layout: page
 permalink: /news/
 title: news
-description: This page keeps a backlog of all news items I have posted on my page.
+description: This page keeps a backlog of all news items posted.
 nav: true
 ---
 <div class="news">
-  <h2>news</h2>
   {% if site.news != blank -%} 
   <div class="table-responsive">
     <table class="table table-sm table-borderless">
