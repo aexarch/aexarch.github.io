@@ -6,5 +6,7 @@ description: Within this page you can view or download my CV, which will periodi
 nav: true
 ---
 <object data="../../assets/pdf/cv.pdf" type="application/pdf" width="100%" height="800px"> 
-  <p>If the document does not appear inline you can <a href="../../assets/pdf/cv.pdf">click here</a> to download the PDF file.</p>  
+<iframe src="../../assets/pdf/cv.pdf" width="100%" height="800px" style="border: none;">
+<p>It seems like your browser does not support inline PDF viewing.</p>  
 </object>
+You can alternqtively download the PDF by clicking <a href="../../assets/pdf/cv.pdf">here</a>.
