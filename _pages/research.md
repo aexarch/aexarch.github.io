@@ -1,18 +1,15 @@
 ---
-layout: post
+layout: page
 title: research
 description: A selection of research I have done.
 permalink: /research/
 nav: true
 ---
-
 <div class="post">
 
   <ul class="post-list">
     {%- assign research = site.research | reverse -%} 
     {% for item in research %}
-
-    {% assign year = item.date | date: "%Y" %}
 
     <li>
       <h3>
