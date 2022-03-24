@@ -1,6 +1,3 @@
-require 'jekyll-replace-last'
-require 'yaml'
-
 module Jekyll
   # {% pdf TITLE | FILE %}
   # creates an iframe with title `TITLE` for displaying a PDF located at `FILE`
