@@ -48,6 +48,7 @@ jobs:
     - name: Fix permissions
       run: |
         chmod a+x bin/*
+        git commit -am --allow-empty "chore: Fix permissions"
     - name: Deploy website 
       run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
