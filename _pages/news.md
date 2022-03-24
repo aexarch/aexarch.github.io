@@ -10,9 +10,9 @@ nav: true
   <div class="table-responsive">
     <table class="table table-sm table-borderless">
     {%- assign news = site.news | reverse -%} 
-    {% for item in news %} 
+    {% for item in news %}
     <tr>
-        <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+        <th scope="row">{{ item.date | date: "%B %Y" }}</th>
         <td>
           {% if item.inline -%} 
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
