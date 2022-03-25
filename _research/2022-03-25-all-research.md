@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  all research
-date: 2022-03-25 21:01:00
+date: 2022-03-25 21:45:00
 description: A selection of all my past research
-tags: 
-categories: 
+tags: research
+categories: research
 ---
 
 My research has largely focused on stochastic control, reinforcement learning, optimization, ML applications in neuroscience, and some differential game theory. You can view my doctoral dissertation [here](https://smartech.gatech.edu/handle/1853/59263)!
