@@ -3,15 +3,14 @@ layout: post
 title:  all research
 date: 2022-03-25 21:45:00
 description: A selection of all my past research
-tags: research
-categories: research
+tags: formatting links
+categories: sample-posts
 ---
-
 My research has largely focused on stochastic control, reinforcement learning, optimization, ML applications in neuroscience, and some differential game theory. You can view my doctoral dissertation [here](https://smartech.gatech.edu/handle/1853/59263)!
 
-* * *
+***
 
-<center>**NOVAS: Nonconvex Optimization via Adaptive Stochastic Search for End-to-End Learning and Control [[ICLR2021]](https://openreview.net/forum?id=Iw4ZGwenbXf)**  
+<center>**NOVAS: Nonconvex Optimization via Adaptive Stochastic Search for End-to-End Learning and Control [\[ICLR2021\]](https://openreview.net/forum?id=Iw4ZGwenbXf)**  
 work with Marcus Pereira, Ziyi Wang, and Evangelos Theodorou  
 
 <video controls="" width="40%" height="40%"><source src="/assets/video/NOVAS_ICLR.mp4" type="video/mp4"> Your browser does not support the video tag.</video>   
@@ -21,9 +20,9 @@ In this work we propose the use of adaptive stochastic search as a building bloc
 
 This work was presented at ICLR 2021.
 
-* * *
+***
 
-<center>**Policy Transfer via Kinematic Domain Randomization and Adaptation [[preprint]](https://arxiv.org/abs/2011.01891)**  
+<center>**Policy Transfer via Kinematic Domain Randomization and Adaptation [\[preprint\]](https://arxiv.org/abs/2011.01891)**  
 work with Yifeng Jiang, Wenhao Yu, and C. Karen Liu  
 
 <video controls="" width="40%" height="40%"><source src="/assets/video/ICRA2021_video.mp4" type="video/mp4"> Your browser does not support the video tag.</video>   
@@ -33,21 +32,21 @@ Transferring reinforcement learning policies trained in physics simulation to th
 
 This work was presented at ICRA 2021.
 
-* * *
+***
 
-<center>**Learning Deep Optimal Control Policies using Forward and Backward SDEs [[ICLR2021]](https://smartech.gatech.edu/handle/1853/59263) [[CoRL2020 paper](https://corlconf.github.io/paper_408/#safe-optimal-control-using-stochastic-barrier-functions-and-deep-forward-backward-sdes) [+ video]](https://www.youtube.com/watch?v=iFzNnYlKBtA&feature=emb_title) [[RSS2019]](http://www.roboticsproceedings.org/rss15/p70.pdf) [[CDC2019]](https://doi.org/10.1109/CDC40024.2019.9028871)**  
+<center>**Learning Deep Optimal Control Policies using Forward and Backward SDEs [\[ICLR2021\]](https://smartech.gatech.edu/handle/1853/59263) [\[CoRL2020 paper\]](https://corlconf.github.io/paper_408/#safe-optimal-control-using-stochastic-barrier-functions-and-deep-forward-backward-sdes) [\[+ video\]](https://www.youtube.com/watch?v=iFzNnYlKBtA&feature=emb_title) [\[RSS2019\]](http://www.roboticsproceedings.org/rss15/p70.pdf) [\[CDC2019\]](https://doi.org/10.1109/CDC40024.2019.9028871)**  
 work with Marcus Pereira, Ziyi Wang, and Evangelos Theodorou  
 
 ![](/assets/img/DFBSDE1.png) ![](/assets/img/DFBSDE2.png) ![](/assets/img/DFBSDE3.png)  
 </center>
 
-This line of work represents a deep learning extension of the stochastic optimal control framework via Forward and Backward Stochastic Differential Equations (FBSDEs), developed in my doctoral dissertation (see further down bellow). The mathematical formulation of a Stochastic Optimal Control (SOC) problem leads to a nonlinear PDE, the Hamilton-Jacobi-Bellman PDE. This motivates algorithmic development for stochastic control that combine elements of PDE theory with deep learning. The transition from a PDE formulation to a trainable neural network is done via the concept of a system of Forward-Backward Stochastic Differential Equations (FBSDEs). Specifically, certain PDE solutions are linked to solutions of FBSDEs, which are the stochastic equivalent of a two-point boundary value problem and can be solved using a suitably defined neural network architecture. This is known in the literature as the deep FBSDE approach; the FBSDEs are then discretized over time and solved on a neural network graph. A system of FBSDEs is shown in the left figure, an example of a deep neural network architecture used to solve this system is shown in the middle. Further extensions of this work include safety during learning (see [CoRL2020 presentation](https://www.youtube.com/watch?v=iFzNnYlKBtA&feature=emb_title)). We demonstrated the scalability and applicability of the deep FBSDE controller in a finance problem, namely a 101-dimensional continuous-time stock portfolio optimization problem where the objective is to outperform the market average (see right figure).  
+This line of work represents a deep learning extension of the stochastic optimal control framework via Forward and Backward Stochastic Differential Equations (FBSDEs), developed in my doctoral dissertation (see further down bellow). The mathematical formulation of a Stochastic Optimal Control (SOC) problem leads to a nonlinear PDE, the Hamilton-Jacobi-Bellman PDE. This motivates algorithmic development for stochastic control that combine elements of PDE theory with deep learning. The transition from a PDE formulation to a trainable neural network is done via the concept of a system of Forward-Backward Stochastic Differential Equations (FBSDEs). Specifically, certain PDE solutions are linked to solutions of FBSDEs, which are the stochastic equivalent of a two-point boundary value problem and can be solved using a suitably defined neural network architecture. This is known in the literature as the deep FBSDE approach; the FBSDEs are then discretized over time and solved on a neural network graph. A system of FBSDEs is shown in the left figure, an example of a deep neural network architecture used to solve this system is shown in the middle. Further extensions of this work include safety during learning (see [CoRL2020 presentation](https://www.youtube.com/watch?v=iFzNnYlKBtA&feature=emb_title). We demonstrated the scalability and applicability of the deep FBSDE controller in a finance problem, namely a 101-dimensional continuous-time stock portfolio optimization problem where the objective is to outperform the market average (see right figure).  
 
 Parts of this work have been published at RSS2019, CDC2019, CoRL2020, and ICLR 2021.
 
-* * *
+***
 
-<center>**Classification of Sleep Stage and Cataplexy in Narcoleptic Mice using Supervised and Unsupervised Machine Learning [[SLEEP2020]](https://doi.org/10.1093/sleep/zsz272)**  
+<center>**Classification of Sleep Stage and Cataplexy in Narcoleptic Mice using Supervised and Unsupervised Machine Learning [\[SLEEP2020\]](https://doi.org/10.1093/sleep/zsz272)**  
 I. Exarchos, A. A. Rogers, L. M. Aiani, R. E. Gross, G. D. Clifford, N. P. Pedersen, and J. T. Willie  
 
 ![](/assets/img/SLEEP1.png) ![](/assets/img/SLEEP2.png)  
@@ -58,9 +57,9 @@ We optimize two machine-learning approaches, supervised and unsupervised, for au
 
 This work has been published in SLEEP.
 
-* * *
+***
 
-<center>**Stochastic Optimal Control using Forward and Backward Stochastic Differential Equations [[Thesis]](https://smartech.gatech.edu/handle/1853/59263) [[Automatica]](https://www.sciencedirect.com/science/article/pii/S0005109817304740) [[SysConLe]](https://doi.org/10.1016/j.sysconle.2018.06.005) [[DGAA]](https://link.springer.com/article/10.1007/s13235-018-0268-4) [[JGCD]](https://doi.org/10.2514/1.G003598)**  
+<center>**Stochastic Optimal Control using Forward and Backward Stochastic Differential Equations [\[Thesis\]](https://smartech.gatech.edu/handle/1853/59263) [\[Automatica\]](https://www.sciencedirect.com/science/article/pii/S0005109817304740) [\[SysConLe\]](https://doi.org/10.1016/j.sysconle.2018.06.005) [\[DGAA\]](https://link.springer.com/article/10.1007/s13235-018-0268-4) [\[JGCD\]](https://doi.org/10.2514/1.G003598)**  
 work with Evangelos Theodorou and Panagiotis Tsiotras  
 
 ![](/assets/img/FBSDE1.png) ![](/assets/img/FBSDE2.png) ![](/assets/img/FBSDE3.png)  
@@ -70,9 +69,9 @@ In this line of work, we utilized tools from control theory, stochastic calculus
 
 Parts of this work have been published in Automatica, Systems & Control Letters, Dynamic Games and Applications, Journal of Guidance, Control, and Dynamics, the 2016 IEEE Conference on Decision and Control, and the 2016 American Control Conference.
 
-* * *
+***
 
-<center>**Multi-agent Pursuit-Evasion Games [[DGAA]](http://link.springer.com/article/10.1007/s13235-014-0130-2/) [[CDC]](https://ieeexplore.ieee.org/document/7040055/) [[GNC]](https://arc.aiaa.org/doi/10.2514/6.2016-2100)**  
+<center>**Multi-agent Pursuit-Evasion Games [\[DGAA\]](http://link.springer.com/article/10.1007/s13235-014-0130-2/) [\[CDC\]](https://ieeexplore.ieee.org/document/7040055/) [\[GNC\]](https://arc.aiaa.org/doi/10.2514/6.2016-2100)**  
 work with Meir Pachter and Panagiotis Tsiotras  
 
 ![](/assets/img/PE1.png) ![](/assets/img/PE2.png) ![](/assets/img/PE3.png)  
@@ -82,4 +81,4 @@ We published a few papers on multi-agent pursuit evasion games. Using the differ
 
 The results were published in the Journal of Dynamic Games and Applications, the IEEE Conference on Decision and Control, as well as the AIAA SciTech Guidance, Navigation, and Control Conference.
 
-* * *
+***
