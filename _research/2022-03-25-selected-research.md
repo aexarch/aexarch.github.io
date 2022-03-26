@@ -2,7 +2,7 @@
 layout: post
 title: selected research
 date: 2022-03-25 00:02:00
-description:My research has largely focused on stochastic control, reinforcement learning, optimization, ML applications in neuroscience, and some differential game theory. You can view my doctoral dissertation <a href="https://smartech.gatech.edu/handle/1853/59263">here</a>.
+description: My research has largely focused on stochastic control, reinforcement learning, optimization, ML applications in neuroscience, and some differential game theory. You can view my doctoral dissertation <a href="https://smartech.gatech.edu/handle/1853/59263">here</a>.
 tags: 
 categories: research
 ---
