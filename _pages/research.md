@@ -14,6 +14,9 @@ My research has largely focused on stochastic control, reinforcement learning, o
     {%- assign research = site.research | reverse -%} 
     {% for item in research %}
 
+    {% assign read_time = item.content | number_of_words | divided_by: 180 | plus: 1 %}
+    {% assign year = item.date | date: "%Y" %}
+
     <li>
       <h3>
         {% if item.redirect == blank %}
@@ -23,7 +26,11 @@ My research has largely focused on stochastic control, reinforcement learning, o
         {% endif %}
       </h3>
       <p>{{ item.description }}</p>
-      <p class="post-meta"> {{ item.date | date: '%B %-d, %Y' }}
+      <p class="post-meta">{{read_time}} min read &nbsp; &middot; &nbsp;
+        {{ item.date | date: '%B %-d, %Y' }}
+      </p>
+      <p class="post-tags">
+        <i class="fas fa-calendar fa-sm"></i> {{ year }}
       </p>
     </li>
 
