@@ -35,9 +35,9 @@ This work was presented at ICRA 2021.
 [[ICLR2021]](https://smartech.gatech.edu/handle/1853/59263) [[CoRL2020 paper]](https://corlconf.github.io/paper_408/#safe-optimal-control-using-stochastic-barrier-functions-and-deep-forward-backward-sdes) [[video]](https://www.youtube.com/watch?v=iFzNnYlKBtA&feature=emb_title) [[RSS2019]](http://www.roboticsproceedings.org/rss15/p70.pdf) [[CDC2019]](https://doi.org/10.1109/CDC40024.2019.9028871)  
 <center><i>work with Marcus Pereira, Ziyi Wang and Evangelos Theodorou</i></center>
 
-{% include figure.html path="assets/img/DFBSDE1.png" class="img-fluid rounded z-depth-1" zoomable=true %
+{% include figure.html path="assets/img/DFBSDE1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <center><i>Figure 1</i></center>
-{% include figure.html path="assets/img/DFBSDE2.png" class="img-fluid rounded z-depth-1" zoomable=true %
+{% include figure.html path="assets/img/DFBSDE2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <center><i>Figure 2</i></center>
 {% include figure.html path="assets/img/DFBSDE3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <center><i>Figure 3</i></center>
