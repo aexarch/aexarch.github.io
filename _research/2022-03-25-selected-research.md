@@ -2,12 +2,12 @@
 layout: post
 title: selected research
 date: 2022-03-25 00:02:00
-description: My research has largely focused on stochastic control, reinforcement learning, optimization, ML applications in neuroscience, and some differential game theory. You can view my doctoral dissertation <a href="https://smartech.gatech.edu/handle/1853/59263">here</a>.
+description: A selection of my current and past research.
 tags: 
 categories: research
 ---
 
-<h1>**NOVAS: Nonconvex Optimization via Adaptive Stochastic Search for End-to-End Learning and Control**</h1>
+<h1>NOVAS: Nonconvex Optimization via Adaptive Stochastic Search for End-to-End Learning and Control</h1>
 [[ICLR2021]](https://openreview.net/forum?id=Iw4ZGwenbXf)
 work with Marcus Pereira, Ziyi Wang, and Evangelos Theodorou  
 
@@ -19,7 +19,7 @@ This work was presented at ICLR 2021.
 
 ***
 
-<h1>**Policy Transfer via Kinematic Domain Randomization and Adaptation**</h1>
+<h1>Policy Transfer via Kinematic Domain Randomization and Adaptation</h1>
 [[preprint]](https://arxiv.org/abs/2011.01891) 
 work with Yifeng Jiang, Wenhao Yu, and C. Karen Liu  
 
@@ -31,7 +31,7 @@ This work was presented at ICRA 2021.
 
 ***
 
-<h1>**Learning Deep Optimal Control Policies using Forward and Backward SDEs**</h1>
+<h1>Learning Deep Optimal Control Policies using Forward and Backward SDEs</h1>
 [[ICLR2021]](https://smartech.gatech.edu/handle/1853/59263) [[CoRL2020 paper]](https://corlconf.github.io/paper_408/#safe-optimal-control-using-stochastic-barrier-functions-and-deep-forward-backward-sdes) [[video]](https://www.youtube.com/watch?v=iFzNnYlKBtA&feature=emb_title) [[RSS2019]](http://www.roboticsproceedings.org/rss15/p70.pdf) [[CDC2019]](https://doi.org/10.1109/CDC40024.2019.9028871)  
 work with Marcus Pereira, Ziyi Wang, and Evangelos Theodorou  
 
@@ -43,7 +43,7 @@ Parts of this work have been published at RSS2019, CDC2019, CoRL2020, and ICLR 2
 
 ***
 
-<h1>**Classification of Sleep Stage and Cataplexy in Narcoleptic Mice using Supervised and Unsupervised Machine Learning**</h1>
+<h1>Classification of Sleep Stage and Cataplexy in Narcoleptic Mice using Supervised and Unsupervised Machine Learning</h1>
 [[SLEEP2020]](https://doi.org/10.1093/sleep/zsz272)  
 I. Exarchos, A. A. Rogers, L. M. Aiani, R. E. Gross, G. D. Clifford, N. P. Pedersen, and J. T. Willie  
 
@@ -56,7 +56,7 @@ This work has been published in SLEEP.
 
 ***
 
-<h1>**Stochastic Optimal Control using Forward and Backward Stochastic Differential Equations**</h1>
+<h1>Stochastic Optimal Control using Forward and Backward Stochastic Differential Equations</h1>
 [[Thesis]](https://smartech.gatech.edu/handle/1853/59263) [[Automatica]](https://www.sciencedirect.com/science/article/pii/S0005109817304740) [[SysConLe]](https://doi.org/10.1016/j.sysconle.2018.06.005) [[DGAA]](https://link.springer.com/article/10.1007/s13235-018-0268-4) [[JGCD]](https://doi.org/10.2514/1.G003598)  
 work with Evangelos Theodorou and Panagiotis Tsiotras  
 
@@ -68,7 +68,7 @@ Parts of this work have been published in Automatica, Systems & Control Letters,
 
 ***
 
-<h1>**Multi-agent Pursuit-Evasion Games**</h1>
+<h1>Multi-agent Pursuit-Evasion Games</h1>
 [[DGAA]](http://link.springer.com/article/10.1007/s13235-014-0130-2/) [[CDC]](https://ieeexplore.ieee.org/document/7040055/) [[GNC]](https://arc.aiaa.org/doi/10.2514/6.2016-2100)  
 work with Meir Pachter and Panagiotis Tsiotras  
 ![](/assets/img/PE1.png) ![](/assets/img/PE2.png) ![](/assets/img/PE3.png)  

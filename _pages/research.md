@@ -1,10 +1,13 @@
 ---
 layout: page
 title: research
-description: A selection of research I have done.
+description: 
 permalink: /research/
 nav: true
 ---
+
+My research has largely focused on stochastic control, reinforcement learning, optimization, ML applications in neuroscience, and some differential game theory. You can view my doctoral dissertation [here](https://smartech.gatech.edu/handle/1853/59263).
+
 <div class="post">
 
   <ul class="post-list">
