@@ -8,9 +8,9 @@ nav: true
 
 <div class="post">
 
-  <div class="header-bar">
-    My research has largely focused on stochastic control, reinforcement learning, optimization, ML applications in neuroscience, and some differential game theory. You can view my doctoral dissertation [here](https://smartech.gatech.edu/handle/1853/59263).
-  </div>
+My research has largely focused on stochastic control, reinforcement learning, optimization, ML applications in neuroscience, and some differential game theory. You can view my doctoral dissertation [here](https://smartech.gatech.edu/handle/1853/59263).
+
+***
 
   <ul class="post-list">
     {%- assign research = site.research | reverse -%} 
