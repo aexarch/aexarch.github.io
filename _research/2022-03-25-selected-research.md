@@ -40,10 +40,15 @@ This work was presented at ICRA 2021.
 
 {% include figure.html path="assets/img/DFBSDE1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <center><i>Figure 1</i></center>
+
+
 {% include figure.html path="assets/img/DFBSDE2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <center><i>Figure 2</i></center>
+
+
 {% include figure.html path="assets/img/DFBSDE3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <center><i>Figure 3</i></center>
+
 
 This line of work represents a deep learning extension of the stochastic optimal control framework via Forward and Backward Stochastic Differential Equations (FBSDEs), developed in my doctoral dissertation (see further down bellow). The mathematical formulation of a Stochastic Optimal Control (SOC) problem leads to a nonlinear PDE, the Hamilton-Jacobi-Bellman PDE. This motivates algorithmic development for stochastic control that combine elements of PDE theory with deep learning. The transition from a PDE formulation to a trainable neural network is done via the concept of a system of Forward-Backward Stochastic Differential Equations (FBSDEs). Specifically, certain PDE solutions are linked to solutions of FBSDEs, which are the stochastic equivalent of a two-point boundary value problem and can be solved using a suitably defined neural network architecture. This is known in the literature as the deep FBSDE approach; the FBSDEs are then discretized over time and solved on a neural network graph. A system of FBSDEs is shown in figure 1, an example of a deep neural network architecture used to solve this system is shown in figure 2. Further extensions of this work include safety during learning (see [CoRL2020 presentation](https://www.youtube.com/watch?v=iFzNnYlKBtA&feature=emb_title)). We demonstrated the scalability and applicability of the deep FBSDE controller in a finance problem, namely a 101-dimensional continuous-time stock portfolio optimization problem where the objective is to outperform the market average (see figure 3).  
 
@@ -73,10 +78,15 @@ This work has been published in SLEEP.
 
 {% include figure.html path="assets/img/FBSDE1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <center><i>Figure 1</i></center>
+
+
 {% include figure.html path="assets/img/FBSDE2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <center><i>Figure 2</i></center>
+
+
 {% include figure.html path="assets/img/FBSDE3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <center><i>Figure 3</i></center>
+
 
 In this line of work, we utilized tools from control theory, stochastic calculus, and machine learning, to propose a mathematical framework capable of addressing a large variety of Stochastic Optimal Control (SOC) problems, as well as stochastic differential games. In general, the mathematical formulation of a SOC problem leads to a nonlinear partial differential equation (PDE), known as the Hamilton-Jacobi-Bellman (HJB) PDE. Furthermore, by virtue of some results in stochastic calculus, certain PDE solutions are linked to solutions of systems of Forward and Backward Stochastic Differential Equations (FBSDEs, figure 1); the latter can be seen as a stochastic equivalent of a two-point boundary value problem. Thus, rather than solving a PDE directly, one can solve its corresponding system of FBSDEs instead -- this is done numerically using sampling and function approximation techniques. The result is a novel sampling-based algorithm, which leads to a nonlinear optimal feedback control law. This controller can be utilized for a variety of control tasks (example: cart-pole in figure 2) and differential games. This is in contrast to most available algorithms within optimal control (e.g., DDP/iLQR, Path Integral control, collocation, multiple shooting etc.) which perform local trajectory optimization and need to close the loop by recalculating the solution at each instant of time, thus requiring heavy online computation during deployment. Applying the algorithm on the fuel-optimal Mars landing problem demonstrates that a deterministic optimal control law, even if it is applied in a closed-loop fashion (i.e., by recalculating the control at each instant of time), does not mitigate the risk induced by the environmental disturbances, and leads to a high probability of crash (figure 3). In contrast, using the proposed method, the probability of a crash can be controlled and can be made arbitrarily small, thus highlighting the importance of stochastic control whenever external disturbances are to be expected (figure 3).  
 
