@@ -1,3 +1,24 @@
+@article{pereira2021deep,
+  abbr = {In submission},
+	title = {Deep L1 Stochastic Optimal Control Policies for Planetary Soft-landing},
+	author = {Pereira, Marcus A and Duarte, Camilo A and Exarchos, Ioannis and Theodorou, Evangelos A},
+	abstract = {In this paper, we introduce a novel deep learning based solution to the Powered-Descent Guidance (PDG) problem, grounded in principles of nonlinear Stochastic Optimal Control (SOC) and Feynman-Kac theory. Our algorithm solves the PDG problem by framing it as an L1 SOC problem for minimum fuel consumption. Additionally, it can handle practically useful control constraints, nonlinear dynamics and enforces state constraints as soft-constraints. This is achieved by building off of recent work on deep Forward-Backward Stochastic Differential Equations (FBSDEs) and differentiable non-convex optimization neural-network layers based on stochastic search. In contrast to previous approaches, our algorithm does not require convexification of the constraints or linearization of the dynamics and is empirically shown to be robust to stochastic disturbances and the initial position of the spacecraft. After training offline, our controller can be activated once the spacecraft is within a pre-specified radius of the landing zone and at a pre-specified altitude i.e., the base of an inverted cone with the tip at the landing zone. We demonstrate empirically that our controller can successfully and safely land all trajectories initialized at the base of this cone while minimizing fuel consumption.},
+	journal = {arXiv preprint arXiv:2109.00183},
+	year = {2022},
+	html = {https://arxiv.org/abs/2109.00183}
+}
+
+@article{exarchos2021task,
+  abbr = {ICRA},
+	title = {Task-Specific Design Optimization and Fabrication for Inflated-Beam Soft Robots with Growable Discrete Joints},
+	author = {Exarchos, Ioannis and Wang, Karen and Do, Brian H and Stroppa, Fabio and Coad, Margaret M and Okamura, Allison M and Liu, C Karen},
+	abstract = {Soft robot serial chain manipulators with the capability for growth, stiffness control, and discrete joints have the potential to approach the dexterity of traditional robot arms, while improving safety, lowering cost, and providing an increased workspace, with potential application in home environments. This paper presents an approach for design optimization of such robots to reach specified targets while minimizing the number of discrete joints and thus construction and actuation costs. We define a maximum number of allowable joints, as well as hardware constraints imposed by the materials and actuation available for soft growing robots, and we formulate and solve an optimization problem to output a planar robot design, i.e., the total number of potential joints and their locations along the robot body, which reaches all the desired targets, avoids known obstacles, and maximizes the workspace. We demonstrate a process to rapidly construct the resulting soft growing robot design. Finally, we use our algorithm to evaluate the ability of this design to reach new targets and demonstrate the algorithm's utility as a design tool to explore robot capabilities given various constraints and objectives.},
+	booktitle = {2022 IEEE International Conference on Robotics and Automation (ICRA)},
+	year = {2022},
+	organization = {IEEE},
+	html = {https://arxiv.org/abs/2103.04942}
+}
+
 @inproceedings{chen2021large,
   abbr = {ICML},
 	title = {Large-Scale Multi-Agent Deep FBSDEs},
@@ -17,7 +38,8 @@
 	abstract = {In this work we propose the use of adaptive stochastic search as a building block for general, non-convex optimization operations within deep neural network architectures. Specifically, for an objective function located at some layer in the network and parameterized by some network parameters, we employ adaptive stochastic search to perform optimization over its output. This operation is differentiable and does not obstruct the passing of gradients during backpropagation, thus enabling us to incorporate it as a component in end-to-end learning. We study the proposed optimization module's properties and benchmark it against two existing alternatives on a synthetic energy-based structured prediction task, and further showcase its use in stochastic optimal control applications.},
 	booktitle = {International Conference on Learning Representations (ICLR)},
 	year = {2021},
-	html = {https://openreview.net/forum?id=Iw4ZGwenbXf}
+	html = {https://openreview.net/forum?id=Iw4ZGwenbXf},
+	selected = {true}
 }
 
 @inproceedings{exarchos2021policy,
@@ -32,14 +54,7 @@
 	html = {https://arxiv.org/abs/2011.01891}
 }
 
-@article{exarchos2021task,
-	title = {Task-Specific Design Optimization and Fabrication for Inflated-Beam Soft Robots with Growable Discrete Joints},
-	author = {Exarchos, Ioannis and Wang, Karen and Do, Brian H and Stroppa, Fabio and Coad, Margaret M and Okamura, Allison M and Liu, C Karen},
-	abstract = {Soft robot serial chain manipulators with the capability for growth, stiffness control, and discrete joints have the potential to approach the dexterity of traditional robot arms, while improving safety, lowering cost, and providing an increased workspace, with potential application in home environments. This paper presents an approach for design optimization of such robots to reach specified targets while minimizing the number of discrete joints and thus construction and actuation costs. We define a maximum number of allowable joints, as well as hardware constraints imposed by the materials and actuation available for soft growing robots, and we formulate and solve an optimization problem to output a planar robot design, i.e., the total number of potential joints and their locations along the robot body, which reaches all the desired targets, avoids known obstacles, and maximizes the workspace. We demonstrate a process to rapidly construct the resulting soft growing robot design. Finally, we use our algorithm to evaluate the ability of this design to reach new targets and demonstrate the algorithm's utility as a design tool to explore robot capabilities given various constraints and objectives.},
-	journal = {arXiv preprint arXiv:2103.04942},
-	year = {2021},
-	html = {https://arxiv.org/abs/2103.04942}
-}
+
 
 @inproceedings{jiang2021dash,
   abbr = {SCA},
@@ -52,14 +67,6 @@
 	pdf = {https://arxiv.org/pdf/2108.12536.pdf}
 }
 
-@article{pereira2021deep,
-	title = {Deep L1 Stochastic Optimal Control Policies for Planetary Soft-landing},
-	author = {Pereira, Marcus A and Duarte, Camilo A and Exarchos, Ioannis and Theodorou, Evangelos A},
-	abstract = {In this paper, we introduce a novel deep learning based solution to the Powered-Descent Guidance (PDG) problem, grounded in principles of nonlinear Stochastic Optimal Control (SOC) and Feynman-Kac theory. Our algorithm solves the PDG problem by framing it as an L1 SOC problem for minimum fuel consumption. Additionally, it can handle practically useful control constraints, nonlinear dynamics and enforces state constraints as soft-constraints. This is achieved by building off of recent work on deep Forward-Backward Stochastic Differential Equations (FBSDEs) and differentiable non-convex optimization neural-network layers based on stochastic search. In contrast to previous approaches, our algorithm does not require convexification of the constraints or linearization of the dynamics and is empirically shown to be robust to stochastic disturbances and the initial position of the spacecraft. After training offline, our controller can be activated once the spacecraft is within a pre-specified radius of the landing zone and at a pre-specified altitude i.e., the base of an inverted cone with the tip at the landing zone. We demonstrate empirically that our controller can successfully and safely land all trajectories initialized at the base of this cone while minimizing fuel consumption.},
-	journal = {arXiv preprint arXiv:2109.00183},
-	year = {2021},
-	html = {https://arxiv.org/abs/2109.00183}
-}
 
 @inproceedings{werling2021fast,
   abbr = {RSS},
@@ -179,11 +186,11 @@
 	pages = {101--108},
 	year = {2018},
 	publisher = {Elsevier},
-	html = {https://doi.org/10.1016/j.sysconle.2018.06.005},
-	selected = {true}
+	html = {https://doi.org/10.1016/j.sysconle.2018.06.005}
 }
 
 @article{exarchos2018stochastic,
+  abbr = {Automatica},
 	title = {Stochastic optimal control via forward and backward stochastic differential equations and importance sampling},
 	author = {Exarchos, Ioannis and Theodorou, Evangelos A},
 	abstract = {The aim of this work is to present a novel sampling-based numerical scheme designed to solve a certain class of stochastic optimal control problems, utilizing forward and backward stochastic differential equations (FBSDEs). By means of a nonlinear version of the Feynman–Kac lemma, we obtain a probabilistic representation of the solution to the nonlinear Hamilton–Jacobi–Bellman equation, expressed in the form of a system of decoupled FBSDEs. This system of FBSDEs can be solved by employing linear regression techniques. The proposed framework relaxes some of the restrictive conditions present in recent sampling based methods within the Linearly Solvable Optimal Control framework, and furthermore addresses problems in which the time horizon is not prespecified. To enhance the efficiency of the proposed scheme when treating more complex nonlinear systems, we then derive an iterative algorithm based on Girsanov’s theorem on the change of measure, which features importance sampling. This scheme is shown to be capable of learning the optimal control without requiring an initial guess.},
@@ -192,7 +199,8 @@
 	pages = {159--165},
 	year = {2018},
 	publisher = {Pergamon},
-	html = {https://www.sciencedirect.com/science/article/pii/S0005109817304740}
+	html = {https://www.sciencedirect.com/science/article/pii/S0005109817304740},
+	selected = (true)
 }
 
 @inproceedings{exarchos2016game,
