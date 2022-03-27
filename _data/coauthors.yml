@@ -8,11 +8,11 @@
 
 "Theodorou":
   - firstname: ["Evangelos", "Evangelos A", "E.", "E. A."]
-    url: 
+    url: https://scholar.google.com/citations?user=dG9MV7oAAAAJ
 
 "Pereira": 
   - firstname: ["Marcus A", "M. A.", "Marcus", "Marcus Aloysius", "M."]
-    url: 
+    url: https://scholar.google.com/citations?user=7ZWWQ9IAAAAJ
 
 "Jiang": 
   - firstname: ["Yifeng", "Y."]
@@ -24,7 +24,7 @@
 
 "Liu": 
   - firstname: ["C Karen", "C. K.", "Karen"]
-    url: 
+    url: https://scholar.google.com/citations?user=i28fU0MAAAAJ
 
 "Do": 
   - firstname: ["Brian H", "B. H."]
@@ -96,7 +96,7 @@
 
 "Tsiotras": 
   - firstname: ["Panagiotis", "P."]
-    url: 
+    url: https://en.m.wikipedia.org/wiki/Panagiotis_Tsiotras
 
 "Lee": 
   - firstname: ["Keuntaek", "K."]
@@ -116,4 +116,20 @@
 
 "Pachter": 
   - firstname: ["Meir", "M."]
+    url: 
+    
+"Fernandez": 
+  - firstname: ["Alejandra", "A."]
+    url: 
+    
+"Connolly": 
+  - firstname: ["Mark J", "M. J."]
+    url: 
+    
+"Gutekunst": 
+  - firstname: ["Claire-Anne", "C.", "C. A."]
+    url: 
+    
+"Ghetiya": 
+  - firstname: ["Mihir", "M."]
     url: 
