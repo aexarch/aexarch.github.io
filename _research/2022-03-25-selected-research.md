@@ -34,7 +34,7 @@ This work was presented at ICRA 2021.
 ***
 
 <h2>Learning Deep Optimal Control Policies using Forward and Backward SDEs</h2>
-[[ICLR2021]](https://smartech.gatech.edu/handle/1853/59263) [[CoRL2020 paper]](https://corlconf.github.io/paper_408/#safe-optimal-control-using-stochastic-barrier-functions-and-deep-forward-backward-sdes) [[video]](https://www.youtube.com/watch?v=iFzNnYlKBtA&feature=emb_title) [[RSS2019]](http://www.roboticsproceedings.org/rss15/p70.pdf) [[CDC2019]](https://doi.org/10.1109/CDC40024.2019.9028871)  
+[[ICLR2021]](https://smartech.gatech.edu/handle/1853/59263) [[CoRL2020 paper]](https://corlconf.github.io/paper_408/) [[video]](https://www.youtube.com/watch?v=iFzNnYlKBtA&feature=emb_title) [[RSS2019]](http://www.roboticsproceedings.org/rss15/p70.pdf) [[CDC2019]](https://doi.org/10.1109/CDC40024.2019.9028871)  
 *work with Marcus Pereira, Ziyi Wang and Evangelos Theodorou*
 
 
