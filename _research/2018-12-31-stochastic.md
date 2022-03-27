@@ -1,7 +1,7 @@
 ---
 layout: researchpost
 title: Stochastic Optimal Control using Forward and Backward Stochastic Differential Equations
-date: 2022-03-25 00:02:00
+date: 2018-12-31 00:02:00
 description: work with Evangelos Theodorou and Panagiotis Tsiotras
 tags: 
 categories: research
