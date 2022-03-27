@@ -7,8 +7,7 @@ tags:
 categories: research
 ---
 
-[[Thesis]](https://smartech.gatech.edu/handle/1853/59263) [[Automatica]](https://www.sciencedirect.com/science/article/pii/S0005109817304740) [[SysConLe]](https://doi.org/10.1016/j.sysconle.2018.06.005) [[DGAA]](https://link.springer.com/article/10.1007/s13235-018-0268-4) [[JGCD]](https://doi.org/10.2514/1.G003598)  
-*work with Evangelos Theodorou and Panagiotis Tsiotras*
+[[Thesis]](https://smartech.gatech.edu/handle/1853/59263) [[Automatica]](https://www.sciencedirect.com/science/article/pii/S0005109817304740) [[SysConLe]](https://doi.org/10.1016/j.sysconle.2018.06.005) [[DGAA]](https://link.springer.com/article/10.1007/s13235-018-0268-4) [[JGCD]](https://doi.org/10.2514/1.G003598)
 
 
 {% include figure.html path="assets/img/FBSDE1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
