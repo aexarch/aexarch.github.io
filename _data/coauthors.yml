@@ -1,18 +1,119 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Chen":
+  - firstname: ["Tiarong", "T."]
+    url: 
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Wang":
+  - firstname: ["Ziyi O", "Z. O.", "Ziyi"]
+    url: 
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Theodorou":
+  - firstname: ["Evangelos", "Evangelos A", "E.", "E. A."]
+    url: 
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Pereira": 
+  - firstname: ["Marcus A", "M. A.", "Marcus", "Marcus Aloysius", "M."]
+    url: 
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Jiang": 
+  - firstname: ["Yifeng", "Y."]
+    url: 
+
+"Yu": 
+  - firstname: ["Wenhao", "W."]
+    url: 
+
+"Liu": 
+  - firstname: ["C Karen", "C. K.", "Karen"]
+    url: 
+
+"Do": 
+  - firstname: ["Brian H", "B. H."]
+    url: 
+
+"Stroppa": 
+  - firstname: ["Fabio", "F."]
+    url: 
+
+"Coad": 
+  - firstname: ["Margaret M", "M. M."]
+    url: 
+
+"Okamura": 
+  - firstname: ["Allison M", "A. M."]
+    url: 
+
+"Guo": 
+  - firstname: ["Michelle", "M."]
+    url: 
+
+"Li": 
+  - firstname: ["Jiangshan", "J."]
+    url: 
+
+"Wu": 
+  - firstname: ["Jiajun", "J."]
+    url: 
+
+"Duarte": 
+  - firstname: ["Camillo A", "C. A."]
+    url: 
+
+"Werling": 
+  - firstname: ["Keenon", "K."]
+    url: 
+
+"Omens": 
+  - firstname: ["Dalton", "D."]
+    url: 
+
+"Lee": 
+  - firstname: ["Jeongseok", "J."]
+    url: 
+
+"Rogers": 
+  - firstname: ["Anna A", "A. A."]
+    url: 
+
+"Aiani": 
+  - firstname: ["Lauren M", "L. M."]
+    url: 
+
+"Gross": 
+  - firstname: ["Robert E", "R. E."]
+    url: 
+
+"Clifford": 
+  - firstname: ["Gari D", "G. D."]
+    url: 
+
+"Pedersen": 
+  - firstname: ["Nigel P", "N. P."]
+    url: 
+
+"Willie": 
+  - firstname: ["Jon T", "J. T."]
+    url: 
+
+"Tsiotras": 
+  - firstname: ["Panagiotis", "P."]
+    url: 
+
+"Lee": 
+  - firstname: ["Keuntaek", "K."]
+    url: 
+
+"Brar": 
+  - firstname: ["Harleen K", "H. K."]
+    url: 
+
+"Pan": 
+  - firstname: ["Yunpeng", "Y."]
+    url: 
+
+"Mahmoudi": 
+  - firstname: ["Babak", "B."]
+    url: 
+
+"Pachter": 
+  - firstname: ["Meir", "M."]
+    url: 
