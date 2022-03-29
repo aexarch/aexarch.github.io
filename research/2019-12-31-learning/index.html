@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ioannis  Exarchos | blog</title>
+    <title>Ioannis  Exarchos | Learning Deep Optimal Control Policies using Forward and Backward SDEs</title>
     <meta name="author" content="Ioannis  Exarchos" />
-    <meta name="description" content="Personal website/portfolio.
-" />
+    <meta name="description" content="work with Marcus Pereira, Ziyi Wang and Evangelos Theodorou" />
     <meta name="keywords" content="academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/al-folio-iexarchos/assets/css/main.css">
-    <link rel="canonical" href="https://aexarch.github.io/al-folio-iexarchos/blog/">
+    <link rel="canonical" href="https://aexarch.github.io/al-folio-iexarchos/research/2019-12-31-learning/">
     
     <!-- Dark Mode -->
     
@@ -87,8 +86,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -101,19 +100,79 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/researchpost.html -->
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h2 class="post-title">Learning Deep Optimal Control Policies using Forward and Backward SDEs</h2>
+    <p class="post-meta">December 31, 2019</p>
+    <p class="post-tags">
+      <i class="fas fa-calendar fa-sm"></i> 2019
+        ·  
+        <i class="fas fa-tag fa-sm"></i> research  
+          
 
-  <ul class="post-list">
-    
-  </ul>
+    </p>
+    <p class="post-description">work with Marcus Pereira, Ziyi Wang and Evangelos Theodorou</p>
+  </header>
 
-  
+  <article class="post-content">
+    <p><a href="https://smartech.gatech.edu/handle/1853/59263" target="_blank" rel="noopener noreferrer">[ICLR2021]</a> <a href="https://corlconf.github.io/paper_408/" target="_blank" rel="noopener noreferrer">[CoRL2020 paper]</a> <a href="https://www.youtube.com/watch?v=iFzNnYlKBtA&amp;feature=emb_title" target="_blank" rel="noopener noreferrer">[video]</a> <a href="http://www.roboticsproceedings.org/rss15/p70.pdf" target="_blank" rel="noopener noreferrer">[RSS2019]</a> <a href="https://doi.org/10.1109/CDC40024.2019.9028871" target="_blank" rel="noopener noreferrer">[CDC2019]</a></p>
+
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio-iexarchos/assets/img/DFBSDE1-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/al-folio-iexarchos/assets/img/DFBSDE1-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/al-folio-iexarchos/assets/img/DFBSDE1-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/al-folio-iexarchos/assets/img/DFBSDE1.png" data-zoomable="">
+
+  </picture>
+
+</figure>
+
+<center><i>Figure 1</i></center>
+<p><br><br></p>
+
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio-iexarchos/assets/img/DFBSDE2-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/al-folio-iexarchos/assets/img/DFBSDE2-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/al-folio-iexarchos/assets/img/DFBSDE2-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/al-folio-iexarchos/assets/img/DFBSDE2.png" data-zoomable="">
+
+  </picture>
+
+</figure>
+
+<center><i>Figure 2</i></center>
+<p><br><br></p>
+
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio-iexarchos/assets/img/DFBSDE3-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/al-folio-iexarchos/assets/img/DFBSDE3-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/al-folio-iexarchos/assets/img/DFBSDE3-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/al-folio-iexarchos/assets/img/DFBSDE3.png" data-zoomable="">
+
+  </picture>
+
+</figure>
+
+<center><i>Figure 3</i></center>
+<p><br><br></p>
+
+<p>This line of work represents a deep learning extension of the stochastic optimal control framework via Forward and Backward Stochastic Differential Equations (FBSDEs), developed in my doctoral dissertation (see further down bellow). The mathematical formulation of a Stochastic Optimal Control (SOC) problem leads to a nonlinear PDE, the Hamilton-Jacobi-Bellman PDE. This motivates algorithmic development for stochastic control that combine elements of PDE theory with deep learning. The transition from a PDE formulation to a trainable neural network is done via the concept of a system of Forward-Backward Stochastic Differential Equations (FBSDEs). Specifically, certain PDE solutions are linked to solutions of FBSDEs, which are the stochastic equivalent of a two-point boundary value problem and can be solved using a suitably defined neural network architecture. This is known in the literature as the deep FBSDE approach; the FBSDEs are then discretized over time and solved on a neural network graph. A system of FBSDEs is shown in figure 1, an example of a deep neural network architecture used to solve this system is shown in figure 2. Further extensions of this work include safety during learning (see <a href="https://www.youtube.com/watch?v=iFzNnYlKBtA&amp;feature=emb_title" target="_blank" rel="noopener noreferrer">CoRL2020 presentation</a>). We demonstrated the scalability and applicability of the deep FBSDE controller in a finance problem, namely a 101-dimensional continuous-time stock portfolio optimization problem where the objective is to outperform the market average (see figure 3).</p>
+
+<p>Parts of this work have been published at RSS2019, CDC2019, CoRL2020, and ICLR 2021.</p>
+
+  </article>
 
 </div>
 
@@ -122,7 +181,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2022 Ioannis  Exarchos. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Adapted by <a href="https://github.com/aexarch" target="_blank">aexarch</a>. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2022 Ioannis  Exarchos. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Adapted by <a href="https://github.com/aexarch" target="_blank" rel="noopener noreferrer">aexarch</a>. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>

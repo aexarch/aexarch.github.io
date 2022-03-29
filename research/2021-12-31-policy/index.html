@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ioannis  Exarchos | blog</title>
+    <title>Ioannis  Exarchos | Policy Transfer via Kinematic Domain Randomization and Adaptation</title>
     <meta name="author" content="Ioannis  Exarchos" />
-    <meta name="description" content="Personal website/portfolio.
-" />
+    <meta name="description" content="work with Yifeng Jiang, Wenhao Yu and C. Karen Liu" />
     <meta name="keywords" content="academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/al-folio-iexarchos/assets/css/main.css">
-    <link rel="canonical" href="https://aexarch.github.io/al-folio-iexarchos/blog/">
+    <link rel="canonical" href="https://aexarch.github.io/al-folio-iexarchos/research/2021-12-31-policy/">
     
     <!-- Dark Mode -->
     
@@ -87,8 +86,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -101,19 +100,33 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/researchpost.html -->
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+<div class="post">
 
+  <header class="post-header">
+    <h2 class="post-title">Policy Transfer via Kinematic Domain Randomization and Adaptation</h2>
+    <p class="post-meta">December 31, 2021</p>
+    <p class="post-tags">
+      <i class="fas fa-calendar fa-sm"></i> 2021
+        ·  
+        <i class="fas fa-tag fa-sm"></i> research  
+          
 
-  <ul class="post-list">
-    
-  </ul>
+    </p>
+    <p class="post-description">work with Yifeng Jiang, Wenhao Yu and C. Karen Liu</p>
+  </header>
 
-  
+  <article class="post-content">
+    <p><a href="https://arxiv.org/abs/2011.01891" target="_blank" rel="noopener noreferrer">[preprint]</a></p>
+
+<center><video controls="" width="80%" height="80%"><source src="/assets/video/ICRA2021_video.mp4" type="video/mp4"></source>Your browser does not support the video tag.</video></center>
+
+<p>Transferring reinforcement learning policies trained in physics simulation to the real hardware remains a challenge, known as the “sim-to-real” gap. Domain randomization is a simple yet effective technique to address dynamics discrepancies across source and target domains, but its success generally depends on heuristics and trial-and-error. In this work we investigate the impact of randomized parameter selection on policy transferability across different types of domain discrepancies. Contrary to common practice in which kinematic parameters are carefully measured while dynamic parameters are randomized, we found that virtually randomizing kinematic parameters (e.g., link lengths) during training in simulation generally outperforms dynamic randomization. Based on this finding, we introduce a new domain adaptation algorithm that utilizes simulated kinematic parameters variation. Our algorithm, Multi-Policy Bayesian Optimization, trains an ensemble of universal policies conditioned on virtual kinematic parameters and efficiently adapts to the target environment using a limited number of target domain rollouts. We showcase our findings on a simulated quadruped robot in five different target environments covering different aspects of domain discrepancies.</p>
+
+<p>This work was presented at ICRA 2021.</p>
+
+  </article>
 
 </div>
 
@@ -122,7 +135,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2022 Ioannis  Exarchos. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Adapted by <a href="https://github.com/aexarch" target="_blank">aexarch</a>. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2022 Ioannis  Exarchos. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Adapted by <a href="https://github.com/aexarch" target="_blank" rel="noopener noreferrer">aexarch</a>. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>
